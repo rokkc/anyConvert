@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div id="title">Unlimited Local Image And Video Conversion</div>
+    <div id="inputArea">
+        <div id="getInput">
+            <input type="file" id="fileInput" onchange="proceedOnUpload()">
+            <button id="chooseButton" onclick="document.getElementById('fileInput').click()">Choose a file</button>
+            <p>or drop it here</p>
+        </div>
+    </div>   
+    <div id="outputArea">
+        <div id="convTitle">Available Conversions:</div>
+        <div id="options"></div>
+    </div>
+</body>
+</html>

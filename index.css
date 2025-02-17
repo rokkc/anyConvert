@@ -1,0 +1,76 @@
+body {
+	background: #1f1f1f;
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#title {
+	margin-top: 25px;
+	font-size: 45px;
+	text-align: center;
+}
+
+#inputArea {
+	background: #FF8DA1;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+}
+
+#getInput {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#chooseButton {
+	height: 40px;
+	width: 200px;
+	border: none;
+	border-radius: 200px;
+	cursor: pointer;
+}
+
+#fileInput {
+	display: none;
+}
+
+#outputArea {
+	margin: auto;
+	margin-top: 40px;
+	background: #FF8DA1;
+	width: 400px;
+	border-radius: 10px;
+	text-align: center;
+	display: none;
+	padding-top: 10px;
+}
+
+#convTitle {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+#options {
+	display: flex;
+  	gap: 10px;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.option {
+	height: 40px;
+	width: 130px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+
+
